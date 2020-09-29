@@ -1,0 +1,21 @@
+* {
+    background: #f6f7b6;
+}
+
+h1{
+    color: #3d3510;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+h2 {
+    color: #525303;
+    text-align: center;
+}
+
+#banner {
+    height: 100px;
+    margin-top: 0%;
+    margin-left: 0%;
+    width: fit-content;
+}
