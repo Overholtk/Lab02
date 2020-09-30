@@ -18,6 +18,8 @@ if(finalChar == 'Y') {
 }if(finalChar == 'N'){
     // console.log('Hey, didn\'t you navigate here from my canvas page... with my name on it?');
     alert('Hey, didn\'t you navigate here from my canvas page... with my name on it?');
+} else {
+    alert('That\'s not a real answer!');
 }
 
 var userAnswer2 = prompt('Is it true that I have run 4th edition D&D professionally?');
@@ -31,6 +33,8 @@ if(finalChar == 'Y') {
 }if(finalChar == 'N'){
     // console.log('Good job!');
     alert('Good job!');
+} else {
+    alert('That\'s not a real answer!');
 }
 
 
@@ -45,6 +49,8 @@ if(finalChar == 'Y') {
 }if(finalChar == 'N'){
     // console.log('Well..Does 400+ hours of gameplay count...? If so you\'re wrong, sorry.');
     alert('Well... does 400+ hours of gameplay count...? If so you\'re wrong, sorry.');
+} else {
+    alert('That\'s not a real answer!');
 }
 
 
@@ -59,4 +65,6 @@ if(finalChar == 'Y') {
 }if(finalChar == 'N'){
     // console.log('Incorrect, sorry!');
     alert('Incorrect, sorry!');
+} else {
+    alert('That\'s not a real answer!');
 }
