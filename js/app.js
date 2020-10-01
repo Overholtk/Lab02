@@ -2,13 +2,16 @@
 
 var correctAnswers = 0;
 
+function getName(){
 var userName=prompt('Welcome! What is your name?');
 
 alert('Nice to meet you, ' + userName);
 console.log('Username: ' + userName);
 
 alert('Pop quiz! Lets see what you know about me!');
+}
 
+function question1(){
 var userAnswer1 = prompt('Is my name Kaya?')
 var getChar = userAnswer1.charAt(0);
 var finalChar = getChar.toUpperCase();
@@ -23,7 +26,9 @@ if(finalChar == 'Y') {
 } else {
     alert('That\'s not a real answer!');
 }
+}
 
+function question2(){
 var userAnswer2 = prompt('Is it true that I have run 4th edition D&D professionally?');
 getChar = userAnswer2.charAt(0);
 finalChar = getChar.toUpperCase();
@@ -38,8 +43,9 @@ if(finalChar == 'Y') {
 } else {
     alert('That\'s not a real answer!');
 }
+}
 
-
+function question3(){
 var userAnswer3 = prompt('Do I play animal crossing?');
 getChar = userAnswer3.charAt(0);
 finalChar = getChar.toUpperCase();
@@ -54,8 +60,9 @@ if(finalChar == 'Y') {
 } else {
     alert('That\'s not a real answer!');
 }
+}
 
-
+function question4() {
 var userAnswer4 = prompt('Was I once a musical theatre major?');
 
 getChar = userAnswer4.charAt(0);
@@ -71,7 +78,9 @@ if(finalChar == 'Y') {
 } else {
     alert('That\'s not a real answer!');
 }
+}
 
+function question5() {
 var userGuess = prompt('Okay, now guess a number between 1 and 10!');
 var numberAnswer = Math.floor(Math.random( )* 10) + 1;
 for(var i = 0; i < 4; i++){
@@ -87,7 +96,9 @@ for(var i = 0; i < 4; i++){
         break;
     }
 }
+}
 
+function question6() {
 var userGuess2 = prompt('Name a martial D&D class:');
 var acceptableAnswers = ['barbarian', 'fighter', 'monk', 'paladin', 'ranger', 'rogue'];
 var tf = true;
@@ -109,5 +120,5 @@ for(var j = 0; j < 5; j++){
         break;
     }
 }
-
 alert('Thanks for playing, ' + userName + '! You got ' + correctAnswers + 'out of 6.');
+}
